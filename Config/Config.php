@@ -1,6 +1,6 @@
 <?php 
-	const BASE_URL = "http://localhost/tienda_virtual";
-	//const BASE_URL = "https://abelosh.com/tiendavirtual";
+	//const BASE_URL = "http://localhost/tienda_virtual";
+	const BASE_URL = "http://15.228.158.194/Neidapp/";
 
 	//Zona horaria
 	date_default_timezone_set('America/Guatemala');
