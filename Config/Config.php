@@ -6,10 +6,18 @@
 	date_default_timezone_set('America/Guatemala');
 
 	//Datos de conexión a Base de Datos
-	const DB_HOST = "localhost";
+	//Conexion local
+	/*const DB_HOST = "localhost";
 	const DB_NAME = "db_tiendavirtual";
 	const DB_USER = "root";
 	const DB_PASSWORD = "";
+	const DB_CHARSET = "utf8";*/
+
+	//Conexion servidor
+	const DB_HOST = "15.228.158.194";
+	const DB_NAME = "db_tiendavirtual";
+	const DB_USER = "admin";
+	const DB_PASSWORD = "admin1234";
 	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
@@ -100,6 +108,4 @@
 	//REDES SOCIALES
 	const FACEBOOK = "https://www.facebook.com/abelosh";
 	const INSTAGRAM = "https://www.instagram.com/febel24/";
-	
-
  ?>
